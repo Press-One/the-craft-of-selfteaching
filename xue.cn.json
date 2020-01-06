@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.4",
   "name": "自学是门手艺",
   "description": "没有自学能力的人没有未来。\n曾经不识字的是文盲，后来不懂英语是文盲，未来不懂编程是文盲……\n人人都可以把变成当做自学的入口。",
   "cover": "https://user-images.githubusercontent.com/8716838/55555006-c8b96100-5716-11e9-8798-b41c6f163e67.jpg",
@@ -13,229 +13,62 @@
   ],
   "toc_level": 2,
   "chapters": [
-    {
-      "path": "00.cover.ipynb",
-      "title": "0 封面"
-    },
-    {
-      "path": "01.preface.ipynb",
-      "title": "0 前言"
-    },
-    {
-      "path": "02.proof-of-work.ipynb",
-      "title": "0 如何证明你真的读过这本书？"
-    },
-    {
-      "path": "Part.1.A.better.teachyourself.ipynb",
-      "title": "1.1 为什么一定要掌握自学能力？"
-    },
-    {
-      "path": "Part.1.B.why.start.from.learning.coding.ipynb",
-      "title": "1.2 为什么把编程当作自学的入口？"
-    },
-    {
-      "path": "Part.1.C.must.learn.sth.only.by.reading.ipynb",
-      "title": "1.3 只靠阅读习得新技能"
-    },
-    {
-      "path": "Part.1.D.preparation.for.reading.ipynb",
-      "title": "1.4 开始阅读前的一些准备"
-    },
-    {
-      "path": "Part.1.E.1.entrance.ipynb",
-      "title": "1.5.1 入口"
-    },
-    {
-      "path": "Part.1.E.2.values-and-their-operators.ipynb",
-      "title": "1.5.2 值及其相应的运算"
-    },
-    {
-      "path": "Part.1.E.3.controlflow.ipynb",
-      "title": "1.5.3 流程控制"
-    },
-    {
-      "path": "Part.1.E.4.functions.ipynb",
-      "title": "1.5.4 函数"
-    },
-    {
-      "path": "Part.1.E.5.strings.ipynb",
-      "title": "1.5.5 字符串"
-    },
-    {
-      "path": "Part.1.E.6.containers.ipynb",
-      "title": "1.5.6 数据容器"
-    },
-    {
-      "path": "Part.1.E.7.files.ipynb",
-      "title": "1.5.7 文件"
-    },
-    {
-      "path": "Part.1.F.deal-with-forward-references.ipynb",
-      "title": "1.6 如何从容应对含有过多“过早引用”的知识？"
-    },
-    {
-      "path": "Part.1.G.The-Python-Tutorial-local.ipynb",
-      "title": "1.7 官方教程：The Python Tutorial"
-    },
-    {
-      "path": "Part.2.A.clumsy-and-patience.ipynb",
-      "title": "2.1 笨拙与耐心"
-    },
-    {
-      "path": "Part.2.B.deliberate-practicing.ipynb",
-      "title": "2.2 刻意练习"
-    },
-    {
-      "path": "Part.2.C.why-start-from-writing-functions.ipynb",
-      "title": "2.3 为什么从函数开始？"
-    },
-    {
-      "path": "Part.2.D.1-args.ipynb",
-      "title": "2.4.1 关于参数(上)"
-    },
-    {
-      "path": "Part.2.D.2-aargs.ipynb",
-      "title": "2.4.2 关于参数(下)"
-    },
-    {
-      "path": "Part.2.D.3-lambda.ipynb",
-      "title": "2.4.3 化名与匿名"
-    },
-    {
-      "path": "Part.2.D.4-recursion.ipynb",
-      "title": "2.4.4 递归函数"
-    },
-    {
-      "path": "Part.2.D.5-docstrings.ipynb",
-      "title": "2.4.5 函数的文档"
-    },
-    {
-      "path": "Part.2.D.6-modules.ipynb",
-      "title": "2.4.6 保存到文件的函数"
-    },
-    {
-      "path": "Part.2.D.7-tdd.ipynb",
-      "title": "2.4.7 测试驱动的开发"
-    },
-    {
-      "path": "Part.2.D.8-main.ipynb",
-      "title": "2.4.8 可执行的 Python 文件"
-    },
-    {
-      "path": "Part.2.E.deliberate-thinking.ipynb",
-      "title": "2.5 刻意思考"
-    },
-    {
-      "path": "Part.3.A.conquering-difficulties.ipynb",
-      "title": "3.1 战胜难点"
-    },
-    {
-      "path": "Part.3.B.1.classes-1.ipynb",
-      "title": "3.2.1 类 —— 面向对象编程"
-    },
-    {
-      "path": "Part.3.B.2.classes-2.ipynb",
-      "title": "3.2.2 类 —— Python 的实现"
-    },
-    {
-      "path": "Part.3.B.3.decorator-iterator-generator.ipynb",
-      "title": "3.2.3 函数工具"
-    },
-    {
-      "path": "Part.3.B.4.regex.ipynb",
-      "title": "3.2.4 正则表达式"
-    },
-    {
-      "path": "Part.3.B.5.bnf-ebnf-pebnf.ipynb",
-      "title": "3.2.5 BNF 以及 EBNF"
-    },
-    {
-      "path": "Part.3.C.breaking-good-and-bad.ipynb",
-      "title": "3.3 拆解"
-    },
-    {
-      "path": "Part.3.D.indispensable-illusion.ipynb",
-      "title": "3.4 刚需幻觉"
-    },
-    {
-      "path": "Part.3.E.to-be-thorough.ipynb",
-      "title": "3.5 全面 —— 自学的境界"
-    },
-    {
-      "path": "Part.3.F.social-selfteaching.ipynb",
-      "title": "3.6 自学者的社交"
-    },
-    {
-      "path": "Part.3.G.the-golden-age-and-google.ipynb",
-      "title": "3.7 这是自学者的黄金时代"
-    },
-    {
-      "path": "Part.3.H.prevent-focus-drifting.ipynb",
-      "title": "3.8 避免注意力漂移"
-    },
-    {
-      "path": "Part.4.A.reader_junhong.ipynb",
-      "title": "4.1 一个野生程序员的自学之路"
-    },
-    {
-      "path": "Part.4.B.reader_lyric.ipynb",
-      "title": "4.2 歌词经理的自学故事"
-    },
-    {
-      "path": "Part.4.C.reader_qinix.ipynb",
-      "title": "4.3 章琦的自学故事"
-    },
-    {
-      "path": "Part.4.D.reader_leask.ipynb",
-      "title": "4.4 每个人都值得拥有一根思维的杠杆"
-    },
-    {
-      "path": "Part.4.E.reader_liujuanjuan.ipynb",
-      "title": "4.5 我不是技术岗，只是学了点编程"
-    },
-    {
-      "path": "Part.4.F.reader_sxuya.ipynb",
-      "title": "4.6 第一遍学完项目感想记录"
-    },
-    {
-      "path": "Part.4.G.reader_shuimu0579.ipynb",
-      "title": "4.7 Suimu 眼中的编程"
-    },
-    {
-      "path": "Part.4.H.reader_liuyunxi.ipynb",
-      "title": "4.8 liuyunxi 的自学故事"
-    },
-    {
-      "path": "Part.4.I.reader_blueeyezhy.ipynb",
-      "title": "4.9 与你分享40岁的我如何自学编程"
-    },
-    {
-      "path": "Q.good-communiation.ipynb",
-      "title": "0 如何成为优秀沟通者"
-    },
-    {
-      "path": "R.finale.ipynb",
-      "title": "0 自学者的终点"
-    },
-    {
-      "path": "S.whats-next.ipynb",
-      "title": "0 下一步干什么？"
-    },
-    {
-      "path": "T-appendix.editor.vscode.ipynb",
-      "title": "Z Visual Studio Code 的安装与配置"
-    },
-    {
-      "path": "T-appendix.git-introduction.ipynb",
-      "title": "Z Git 简介"
-    },
-    {
-      "path": "T-appendix.jupyter-installation-and-setup.ipynb",
-      "title": "Z Jupyterlab 的安装与配置"
-    },
-    {
-      "path": "T-appendix.symbols.ipynb",
-      "title": "Z 这些符号都代表什么？"
+    {"path": "00.cover.ipynb","tags": [],"title": "0 封面"},
+    {"path": "01.preface.ipynb","tags": [],"title": "0 前言"},
+    {"path": "02.proof-of-work.ipynb","tags": [],"title": "0 如何证明你真的读过这本书？"},
+    {"path": "Part.1.A.better.teachyourself.ipynb","tags": [],"title": "1.1 为什么一定要掌握自学能力？"},
+    {"path": "Part.1.B.why.start.from.learning.coding.ipynb","tags": [],"title": "1.2 为什么把编程当作自学的入口？"},
+    {"path": "Part.1.C.must.learn.sth.only.by.reading.ipynb","tags": [],"title": "1.3 只靠阅读习得新技能"},
+    {"path": "Part.1.D.preparation.for.reading.ipynb","tags": [],"title": "1.4 开始阅读前的一些准备"},
+    {"path": "Part.1.E.1.entrance.ipynb","tags": [],"title": "1.5.1 入口"},
+    {"path": "Part.1.E.2.values-and-their-operators.ipynb","tags": [],"title": "1.5.2 值及其相应的运算"},
+    {"path": "Part.1.E.3.controlflow.ipynb","tags": [],"title": "1.5.3 流程控制"},
+    {"path": "Part.1.E.4.functions.ipynb","tags": [],"title": "1.5.4 函数"},
+    {"path": "Part.1.E.5.strings.ipynb","tags": [],"title": "1.5.5 字符串"},
+    {"path": "Part.1.E.6.containers.ipynb","tags": [],"title": "1.5.6 数据容器"},
+    {"path": "Part.1.E.7.files.ipynb","tags": [],"title": "1.5.7 文件"},
+    {"path": "Part.1.F.deal-with-forward-references.ipynb","tags": [],"title": "1.6 如何从容应对含有过多“过早引用”的知识？"},
+    {"path": "Part.1.G.The-Python-Tutorial-local.ipynb","tags": [],"title": "1.7 官方教程：The Python Tutorial"},
+    {"path": "Part.2.A.clumsy-and-patience.ipynb","tags": [],"title": "2.1 笨拙与耐心"},
+    {"path": "Part.2.B.deliberate-practicing.ipynb","tags": [],"title": "2.2 刻意练习"},
+    {"path": "Part.2.C.why-start-from-writing-functions.ipynb","tags": [],"title": "2.3 为什么从函数开始？"},
+    {"path": "Part.2.D.1-args.ipynb","tags": [],"title": "2.4.1 关于参数(上)"},
+    {"path": "Part.2.D.2-aargs.ipynb","tags": [],"title": "2.4.2 关于参数(下)"},
+    {"path": "Part.2.D.3-lambda.ipynb","tags": [],"title": "2.4.3 化名与匿名"},
+    {"path": "Part.2.D.4-recursion.ipynb","tags": [],"title": "2.4.4 递归函数"},
+    {"path": "Part.2.D.5-docstrings.ipynb","tags": [],"title": "2.4.5 函数的文档"},
+    {"path": "Part.2.D.6-modules.ipynb","tags": [],"title": "2.4.6 保存到文件的函数"},
+    {"path": "Part.2.D.7-tdd.ipynb","tags": [],"title": "2.4.7 测试驱动的开发"},
+    {"path": "Part.2.D.8-main.ipynb","tags": [],"title": "2.4.8 可执行的 Python 文件"},
+    {"path": "Part.2.E.deliberate-thinking.ipynb","tags": [],"title": "2.5 刻意思考"},
+    {"path": "Part.3.A.conquering-difficulties.ipynb","tags": [],"title": "3.1 战胜难点"},
+    {"path": "Part.3.B.1.classes-1.ipynb","tags": [],"title": "3.2.1 类 —— 面向对象编程"},
+    {"path": "Part.3.B.2.classes-2.ipynb","tags": [],"title": "3.2.2 类 —— Python 的实现"},
+    {"path": "Part.3.B.3.decorator-iterator-generator.ipynb","tags": [],"title": "3.2.3 函数工具"},
+    {"path": "Part.3.B.4.regex.ipynb","tags": [],"title": "3.2.4 正则表达式"},
+    {"path": "Part.3.B.5.bnf-ebnf-pebnf.ipynb","tags": [],"title": "3.2.5 BNF 以及 EBNF"},
+    {"path": "Part.3.C.breaking-good-and-bad.ipynb","tags": [],"title": "3.3 拆解"},
+    {"path": "Part.3.D.indispensable-illusion.ipynb","tags": [],"title": "3.4 刚需幻觉"},
+    {"path": "Part.3.E.to-be-thorough.ipynb","tags": [],"title": "3.5 全面 —— 自学的境界"},
+    {"path": "Part.3.F.social-selfteaching.ipynb","tags": [],"title": "3.6 自学者的社交"},
+    {"path": "Part.3.G.the-golden-age-and-google.ipynb","tags": [],"title": "3.7 这是自学者的黄金时代"},
+    {"path": "Part.3.H.prevent-focus-drifting.ipynb","tags": [],"title": "3.8 避免注意力漂移"},
+    {"path": "Part.4.A.reader_junhong.ipynb","tags": [],"title": "4.1 一个野生程序员的自学之路"},
+    {"path": "Part.4.B.reader_lyric.ipynb","tags": [],"title": "4.2 歌词经理的自学故事"},
+    {"path": "Part.4.C.reader_qinix.ipynb","tags": [],"title": "4.3 章琦的自学故事"},
+    {"path": "Part.4.D.reader_leask.ipynb","tags": [],"title": "4.4 每个人都值得拥有一根思维的杠杆"},
+    {"path": "Part.4.E.reader_liujuanjuan.ipynb","tags": [],"title": "4.5 我不是技术岗，只是学了点编程"},
+    {"path": "Part.4.F.reader_sxuya.ipynb","tags": [],"title": "4.6 第一遍学完项目感想记录"},
+    {"path": "Part.4.G.reader_shuimu0579.ipynb","tags": [],"title": "4.7 Suimu 眼中的编程"},
+    {"path": "Part.4.H.reader_liuyunxi.ipynb","tags": [],"title": "4.8 liuyunxi 的自学故事"},
+    {"path": "Part.4.I.reader_blueeyezhy.ipynb","tags": [],"title": "4.9 与你分享40岁的我如何自学编程"},
+    {"path": "Q.good-communiation.ipynb","tags": [],"title": "0 如何成为优秀沟通者"},
+    {"path": "R.finale.ipynb","tags": [],"title": "0 自学者的终点"},
+    {"path": "S.whats-next.ipynb","tags": [],"title": "0 下一步干什么？"},
+    {"path": "T-appendix.editor.vscode.ipynb","tags": [],"title": "Z Visual Studio Code 的安装与配置"},
+    {"path": "T-appendix.git-introduction.ipynb","tags": [],"title": "Z Git 简介"},
+    {"path": "T-appendix.jupyter-installation-and-setup.ipynb","tags": [],"title": "Z Jupyterlab 的安装与配置"},
+    {"path": "T-appendix.symbols.ipynb","tags": [],"title": "Z 这些符号都代表什么？"
     }
   ]
 }
