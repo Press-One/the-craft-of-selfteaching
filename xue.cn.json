@@ -72,6 +72,7 @@
     {"is_free":true, "path": "notes_4.ipynb", "title": "5.2 答题笔记：输入考试分数，自动得出考试等级"},
     {"is_free":true, "path": "notes_3.ipynb", "title": "5.3 答题笔记：去重列表中的重复元素"},
     {"is_free":true, "path": "notes_13.ipynb", "title": "5.4 答题笔记：编写一个函数生成随机字符串"},
+    {"is_free":true, "path": "notes_7.ipynb", "title": "5.5 答题笔记：输出字符串中所有数字出现的位置"},
     {"is_free":true, "path": "Q.good-communiation.ipynb", "title": "0 如何成为优秀沟通者"},
     {"is_free":true, "path": "R.finale.ipynb", "title": "0 自学者的终点"},
     {"is_free":true, "path": "S.whats-next.ipynb", "title": "0 下一步干什么？"},
