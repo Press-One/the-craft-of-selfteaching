@@ -12,6 +12,7 @@
         {
             "is_free": true,
             "path": "00.cover.ipynb",
+            "tags": [],
             "title": "0 封面"
         },
         {
@@ -47,46 +48,91 @@
         {
             "is_free": true,
             "path": "Part.1.E.1.entrance.ipynb",
+            "tags": [
+                "布尔运算",
+                "运算符",
+                "逻辑操作符",
+                "注释",
+                "流程控制"
+            ],
             "title": "1.5.1 入口"
         },
         {
             "is_free": true,
             "path": "Part.1.E.2.values-and-their-operators.ipynb",
+            "tags": [
+                "值的计算",
+                "变量",
+                "常量",
+                "操作符",
+                "布尔运算",
+                "整数",
+                "浮点数",
+                "复数",
+                "数据类型",
+                "表达式"
+            ],
             "title": "1.5.2 值及其相应的运算"
         },
         {
             "is_free": true,
             "path": "Part.1.E.3.controlflow.ipynb",
+            "tags": [
+                "if语句",
+                "while循环",
+                "for循环",
+                "流程控制"
+            ],
             "title": "1.5.3 流程控制"
         },
         {
             "is_free": false,
             "path": "Part.1.E.4.functions.ipynb",
+            "tags": [
+                "函数"
+            ],
             "title": "1.5.4 函数"
         },
         {
             "is_free": false,
             "path": "Part.1.E.5.strings.ipynb",
+            "tags": [
+                "字符串"
+            ],
             "title": "1.5.5 字符串"
         },
         {
             "is_free": false,
             "path": "Part.1.E.6.containers.ipynb",
+            "tags": [
+                "range()",
+                "字典",
+                "元组",
+                "集合",
+                "列表"
+            ],
             "title": "1.5.6 数据容器"
         },
         {
             "is_free": false,
             "path": "Part.1.E.7.files.ipynb",
+            "tags": [
+                "文件"
+            ],
             "title": "1.5.7 文件"
         },
         {
             "is_free": false,
             "path": "Part.1.F.deal-with-forward-references.ipynb",
+            "tags": [],
             "title": "1.6 如何从容应对含有过多“过早引用”的知识？"
         },
         {
             "is_free": false,
             "path": "Part.1.G.The-Python-Tutorial-local.ipynb",
+            "tags": [
+                "Python官方文档"
+            ],
             "title": "1.7 官方教程：The Python Tutorial"
         },
         {
@@ -102,46 +148,80 @@
         {
             "is_free": false,
             "path": "Part.2.C.why-start-from-writing-functions.ipynb",
+            "tags": [
+                "函数"
+            ],
             "title": "2.3 为什么从函数开始？"
         },
         {
             "is_free": false,
             "path": "Part.2.D.1-args.ipynb",
+            "tags": [
+                "函数",
+                "参数"
+            ],
             "title": "2.4.1 关于参数(上)"
         },
         {
             "is_free": false,
             "path": "Part.2.D.2-aargs.ipynb",
+            "tags": [
+                "函数",
+                "参数"
+            ],
             "title": "2.4.2 关于参数(下)"
         },
         {
             "is_free": false,
             "path": "Part.2.D.3-lambda.ipynb",
+            "tags": [
+                "匿名函数",
+                "函数的化名"
+            ],
             "title": "2.4.3 化名与匿名"
         },
         {
             "is_free": false,
             "path": "Part.2.D.4-recursion.ipynb",
+            "tags": [
+                "递归函数"
+            ],
             "title": "2.4.4 递归函数"
         },
         {
             "is_free": false,
             "path": "Part.2.D.5-docstrings.ipynb",
+            "tags": [
+                "函数",
+                "函数文档"
+            ],
             "title": "2.4.5 函数的文档"
         },
         {
             "is_free": false,
             "path": "Part.2.D.6-modules.ipynb",
+            "tags": [
+                "文件",
+                "自定义模块"
+            ],
             "title": "2.4.6 保存到文件的函数"
         },
         {
             "is_free": false,
             "path": "Part.2.D.7-tdd.ipynb",
+            "tags": [
+                "测试",
+                "异常",
+                "测试"
+            ],
             "title": "2.4.7 测试驱动的开发"
         },
         {
             "is_free": false,
             "path": "Part.2.D.8-main.ipynb",
+            "tags": [
+                "自定义模块"
+            ],
             "title": "2.4.8 可执行的 Python 文件"
         },
         {
@@ -157,26 +237,46 @@
         {
             "is_free": false,
             "path": "Part.3.B.1.classes-1.ipynb",
+            "tags": [
+                "类"
+            ],
             "title": "3.2.1 类 —— 面向对象编程"
         },
         {
             "is_free": false,
             "path": "Part.3.B.2.classes-2.ipynb",
+            "tags": [
+                "类",
+                "面向对象"
+            ],
             "title": "3.2.2 类 —— Python 的实现"
         },
         {
             "is_free": false,
             "path": "Part.3.B.3.decorator-iterator-generator.ipynb",
+            "tags": [
+                "函数工具",
+                "迭代器",
+                "生成器",
+                "装饰器"
+            ],
             "title": "3.2.3 函数工具"
         },
         {
             "is_free": false,
             "path": "Part.3.B.4.regex.ipynb",
+            "tags": [
+                "正则表达式"
+            ],
             "title": "3.2.4 正则表达式"
         },
         {
             "is_free": false,
             "path": "Part.3.B.5.bnf-ebnf-pebnf.ipynb",
+            "tags": [
+                "BNF",
+                "EBNF"
+            ],
             "title": "3.2.5 BNF 以及 EBNF"
         },
         {
@@ -267,31 +367,55 @@
         {
             "is_free": true,
             "path": "notes_1170.ipynb",
+            "tags": [
+                "内置函数input()",
+                "内置函数sorted()",
+                "整数"
+            ],
             "title": "5.1 答题笔记：由输入获得 10 个整数并从小到大排序"
         },
         {
             "is_free": true,
             "path": "notes_4.ipynb",
+            "tags": [
+                "内置函数input()",
+                "if语句"
+            ],
             "title": "5.2 答题笔记：输入考试分数，自动得出考试等级"
         },
         {
             "is_free": true,
             "path": "notes_3.ipynb",
+            "tags": [
+                "列表",
+                "集合"
+            ],
             "title": "5.3 答题笔记：去重列表中的重复元素"
         },
         {
             "is_free": true,
             "path": "notes_13.ipynb",
+            "tags": [
+                "函数",
+                "random库"
+            ],
             "title": "5.4 答题笔记：编写一个函数生成随机字符串"
         },
         {
             "is_free": true,
             "path": "notes_7.ipynb",
+            "tags": [
+                "字符串"
+            ],
             "title": "5.5 答题笔记：输出字符串中所有数字出现的位置"
         },
         {
             "is_free": true,
             "path": "notes_9.ipynb",
+            "tags": [
+                "列表",
+                "字典"
+            ],
             "title": "5.6 答题笔记：对给定列表进行运算后返回字典"
         },
         {
@@ -312,16 +436,26 @@
         {
             "is_free": true,
             "path": "T-appendix.editor.vscode.ipynb",
+            "tags": [
+                "安装配置",
+                "vscode"
+            ],
             "title": "Z Visual Studio Code 的安装与配置"
         },
         {
             "is_free": true,
             "path": "T-appendix.git-introduction.ipynb",
+            "tags": [
+                "git"
+            ],
             "title": "Z Git 简介"
         },
         {
             "is_free": true,
             "path": "T-appendix.jupyter-installation-and-setup.ipynb",
+            "tags": [
+                "Jupyter"
+            ],
             "title": "Z Jupyterlab 的安装与配置"
         },
         {
