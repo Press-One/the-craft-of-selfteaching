@@ -111,8 +111,7 @@ print('Hello, world!')
 
 为了照顾那些也想读完本书，但因为种种原因想着读中文可以快一些的人，链接还是放在这里：
 
-> * https://docs.python.org/zh-cn/3/tutorial/index.html (for v.3.7.2）
-> * http://www.pythondoc.com/pythontutorial3/ (for v.3.6.3)
+> * [Python 官方文档中文版 Tutorial (for v.3.8.x）](https://xue.cn/hub/api/books/path?bookId=60&path=book_58/tutorial/index.ipynb)
 
 我曾经专门写过一本书发布在网上，叫《[人人都能用英语](https://github.com/xiaolai/everyone-can-use-english)》。其中的观点就是，大多数人之所以在英语这事上很矬，是因为他们花无数的时间去 _“学”_，但就是 _“不用”_。学以致用，用以促学。可就是不用，无论如何就是不用，那英语学了那么多年能学好吗？
 
