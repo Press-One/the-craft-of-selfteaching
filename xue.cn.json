@@ -1,13 +1,4 @@
 {
- "authors": [
-  {
-   "avatar": "https://xue-images.pek3b.qingstor.com/author_lixiaolai.jpg",
-   "bio": "终身学习者，原新东方名师，著有《把时间当作朋友》、《新生七年就是一辈子》、《TOEFL 核心词汇 21 天突破》、《韭菜的自我修养》等多本畅销书。",
-   "name": "李笑来",
-   "role": "origin"
-  }
- ],
- "category": "编程入门，李笑来，Python，零基础，脑锻炼",
  "chapters": [
   {
    "is_free": true,
@@ -469,7 +460,16 @@
  "license": "本书由作者 李笑来 授权",
  "name": "自学是门手艺",
  "programming_language": "Python",
- "publish_at": "2019-06-11T00:00:00",
+ "category": "李笑来，Python，零基础",
+ "authors": [
+  {
+   "avatar": "https://xue-images.pek3b.qingstor.com/author_lixiaolai.jpg",
+   "bio": "终身学习者，原新东方名师，著有《把时间当作朋友》、《新生七年就是一辈子》、《TOEFL 核心词汇 21 天突破》、《韭菜的自我修养》等多本畅销书。",
+   "name": "李笑来",
+   "role": "origin"
+  }
+ ],
+ "publish_at": "2019-06-11T00:00:01",
  "toc_level": 2,
  "version": "0.5"
 }
